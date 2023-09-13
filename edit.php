@@ -52,7 +52,7 @@
             <table>
                 <tr>
                     <td>Judul Buku</td>
-                    <td><input type="text" name="title" value="<?= $author ?>"></td>
+                    <td><input type="text" name="title" value="<?= $title ?>"></td>
                 </tr>
                 <tr>
                     <td>Penulis Buku</td>
