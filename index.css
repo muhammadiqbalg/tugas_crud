@@ -1,0 +1,78 @@
+body {
+    background: #F6F1F1;
+    padding: 10px;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    background: transparent;
+}
+
+header h1 {
+    flex: 1;
+    color: #000000;
+}
+
+header nav {
+    flex: 1;
+    position: fixed;
+    right: 0;
+    padding-top: 10px;
+    padding-right: 35px;
+}
+
+header nav a {
+    padding: 15px 25px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #000000;
+}
+
+main {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main table {
+    width: 980px;
+}
+
+main table tr th {
+    padding: 18px 15px;
+    text-align: center;
+    color: #F6F1F1;
+    background: #19A7CE;
+}
+
+main table tr td {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    border-bottom: 0.5px solid #000000;
+}
+
+main table tr td a {
+    text-decoration: none;
+}
+
+#edit {
+    padding: 8px 25px;
+    border-radius: 7px;
+    margin-right: 5px;
+    color: #F6F1F1;
+    background: #19A7CE;
+}
+
+#delete {
+    padding: 8px 15px;
+    border-radius: 7px;
+    margin-left: 5px;
+    color: #F6F1F1;
+    background: #f00;
+}
